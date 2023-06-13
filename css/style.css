@@ -3,11 +3,58 @@
 body{
     margin: 0;
     box-sizing: border-box;
+    background-color: grey;
 }
 
+header{
+    background-color: white;
+    height: 100px;
+    line-height: 100px;
+}
+
+.logo, .title{
+    vertical-align: middle;
+}
 
 /* SPECIFIC */
 
 .title{
     display: inline;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 2%;
+}
+
+.button{
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 2px solid grey;
+}
+
+.add{
+    margin-left: 25px;
+    min-height: 30px;
+    min-width: 100px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+}
+
+.task{
+    background-color: #46ADF1;
+    color: white;
+}
+
+.sect{
+    border: .5px solid grey;
+    background-color: white;
+    color: grey;
 }
