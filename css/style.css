@@ -1,60 +1,79 @@
 /* GENERICS */
 
-body{
+body {
     margin: 0;
     box-sizing: border-box;
     background-color: grey;
 }
 
-header{
+header {
     background-color: white;
     height: 100px;
     line-height: 100px;
 }
 
-.logo, .title{
+.logo,
+.title {
     vertical-align: middle;
 }
 
 /* SPECIFIC */
 
-.title{
+/* TOP */
+
+.title {
     display: inline;
     margin: 0;
 }
 
-.container{
+.container {
     height: 100vh;
     max-width: 80%;
     margin: auto;
     margin-top: 30px;
     background-color: white;
-    border-radius: 2%;
+    border-radius: 1%;
 }
 
-.button{
+.buttons {
     height: 80px;
     line-height: 80px;
     border-bottom: 2px solid grey;
+    padding-left: 60px;
 }
 
-.add{
-    margin-left: 25px;
-    min-height: 30px;
-    min-width: 100px;
+.add {
+    padding: 16px 32px;
     border-radius: 8px;
     text-align: center;
     font-weight: bold;
     border: none;
 }
 
-.task{
+.task {
     background-color: #46ADF1;
     color: white;
 }
 
-.sect{
+.sect {
     border: .5px solid grey;
     background-color: white;
     color: grey;
+}
+
+/* MAIN */
+.tasks {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.tasks-text {
+    display: inline;
+}
+
+.placeholder {
+    background-color: #46ADF1;
+    border-radius: 50px;
+    padding: 8px 16px;
+    color: white;
 }
