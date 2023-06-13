@@ -69,12 +69,12 @@ header {
     padding-left: 20px;
 }
 
-.arrow{
+.arrow {
     vertical-align: middle;
     margin-right: 10px;
 }
 
-.menu-text{
+.menu-text {
     font-weight: normal;
 }
 
@@ -85,22 +85,22 @@ header {
 }
 
 
-.blue{
+.blue {
     background-color: #46ADF1;
 }
 
-.purple{
+.purple {
     background-color: purple;
 }
 
-.green{
+.green {
     background-color: green;
 }
 
-.violet{
+.violet {
     background-color: violet;
 }
 
-.sales{
+.sales {
     background-color: #b1c926;
 }
