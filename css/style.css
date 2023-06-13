@@ -1,3 +1,13 @@
-h1{
-    color: red;
+/* GENERICS */
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* SPECIFIC */
+
+.title{
+    display: inline;
 }
