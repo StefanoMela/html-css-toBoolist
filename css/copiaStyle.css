@@ -55,10 +55,11 @@ header {
 .task {
     background-color: #46ADF1;
     color: white;
+    border: 1px solid currentColor;
 }
 
 .sect {
-    border: .5px solid grey;
+    border: 1px solid currentColor;
     background-color: white;
     color: grey;
 }
